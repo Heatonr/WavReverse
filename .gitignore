@@ -1,0 +1,8 @@
+*.txt
+*.out
+*.wav
+*.save
+*.gch
+*.o
+*.hex
+*vgcore*
