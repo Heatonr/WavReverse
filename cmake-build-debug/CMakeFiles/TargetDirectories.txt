@@ -1,3 +1,0 @@
-/home/heatonr/343/WavReverse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/heatonr/343/WavReverse/cmake-build-debug/CMakeFiles/WavReverse.dir
-/home/heatonr/343/WavReverse/cmake-build-debug/CMakeFiles/edit_cache.dir
