@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heatonr/343/WavReverse/file.c
+file.h
+/home/heatonr/343/WavReverse/file.h
+stdio.h
+-
+stdlib.h
+-
+errno.h
+-
+
+/home/heatonr/343/WavReverse/file.h
+stdio.h
+-
+

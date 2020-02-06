@@ -25,7 +25,7 @@ int main(int argc, char** argv){
     printf("%d channels with a sample rate of %d\n", wav->number_channels, wav->sample_rate);
     printf("%d byte rate, %d alignment, %d bits per sample\n",
             wav->bytes_per_frame, wav->block_alignment, wav->bits_per_sample);
-    printf("Data is \"%s\" and data size is %d", wav->data_begin, wav->size_of_data);
+    printf("Data is \"%s\" and data size is %d\n", wav->data_begin, wav->size_of_data);
 
     memcpy(&output[0],&wav->riff,sizeof(wav->riff));
     memcpy(&output[4],&wav->file_size,sizeof(wav->file_size));
